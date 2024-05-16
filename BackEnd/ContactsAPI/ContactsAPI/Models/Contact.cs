@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 namespace ContactsAPI.Models
 {
     public class Contact
-    {
-        // Insert Contact Fields Here
-    }
+{
+    public int Id { get; set; }
+    public string Name { get; set; }
+    public int ContactNumber { get; set; }
+    public string Email { get; set; }
+}
 }
